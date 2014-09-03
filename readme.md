@@ -1,37 +1,34 @@
-# Simply Grey
-Simply Grey is a nice, easy on the eyes Jekyll theme that makes great use of grey colours. 
+dbyll
+=====
 
-![Screenshot of Simply Grey](http://i.imgur.com/sKpj8Oz.png)
+Open source stylish, minimalistic theme for jekyll.  
+Demo: http://dbtek.github.io/dbyll/
 
-## Installation
-There are a few requirements to using and installing the Simply Grey theme.
+## New
+Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
 
-1. You must have Jekyll installed. If you have no done this, do it by executing the following code. 
-`gem install jekyll`
+### Features
+- Responsive layout.
+- Supports tags and categories.
+- Social profile and bio of author.
+- Bootstrap based.
+- Glyphicon and Font-Awesome Icons.
+- Pagination.
+- Syntax highlighting with pygments.
+- Disqus comments.
 
-2. You must have git installed. If you do not have this, install it on your system by using your package manager. For example, in Debian, type 
-`sudo apt-get install git`
 
-Once you have done this, installation is pretty easy.
+### Download
+* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
 
-Simply clone the repository
+### Screenshots
 
-`git clone https://github.com/exaem/simplygrey-jekyll.git`
+![dbyll-screenshot](	assets/media/dbyll-ss.png)
 
-and serve the blog up so people can see it
+### License
+- [MIT](http://opensource.org/licenses/MIT)
 
-`cd simplygrey-jekyll; jekyll serve`
 
-## Configuring SimplyGrey
-The SimplyGrey theme is actually very easy to configure.
 
-### Adding more links to the navigation bar
-1. Open the _configure.yml file
-2. Add some more values to the urls hash like the others that already exist there.
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/dbyll/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-### Changing the site name
-1. Open the _configure.yml file
-2. Change the site name
-
-### Changing the logo/picture image
-1. Drop a 75x75 image into the img directory.

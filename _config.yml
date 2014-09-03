@@ -1,10 +1,30 @@
-name: Simply Grey
-markdown: redcarpet
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
 pygments: true
-github: https://www.github.com/exaem
-about: I am an independent developer from the sunny UK. I dabble in Ruby, play in C and I'm an avid systems administrator.
-urls:
-    - text: github
-      url: https://github.com/exaem
-    - text: email
-      url: mailto:exaem@exaem.co.uk
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Matthew Ross
+
+description: Matt Ross Tech Boss
+author:
+  name: Matthew Ross
+  email: mattross1080@gmail.com
+  github: mross1080
+  twitter: mross1080
+  linkedin: http://www.linkedin.com/pub/matthew-ross/44/841/284/
+  bio: What if one day, computers were in charge?
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
